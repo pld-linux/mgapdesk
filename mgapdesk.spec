@@ -14,16 +14,14 @@ Vendor:		Matrox Graphics Inc.
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Matrox Linux Powerdesk. Utility for configuring Matrox
-Graphic adapters under XFree86.
+Matrox Linux Powerdesk. Utility for configuring Matrox Graphic
+adapters under XFree86.
 
 %description -l pl
-Narzêdzie do konfiguracji kart graficznych firmy Matrox
-pod XFree86.
+Narzêdzie do konfiguracji kart graficznych firmy Matrox pod XFree86.
 
 %prep
 %setup -q -n mgapdesk
-
 
 %build
 %{__aclocal}
@@ -38,8 +36,7 @@ pod XFree86.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-        DESTDIR=$RPM_BUILD_ROOT
-
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
