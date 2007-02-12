@@ -1,6 +1,6 @@
 %define		beta	beta3
 Summary:	Configuration utility for Matrox Graphics adapters
-Summary(pl):	Narzêdzie do konfiguracji kart graficznych firmy Matrox
+Summary(pl.UTF-8):   NarzÄ™dzie do konfiguracji kart graficznych firmy Matrox
 Name:		mgapdesk
 Version:	1.00
 Release:	0.%{beta}.1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Matrox Linux Powerdesk. Utility for configuring Matrox Graphic
 adapters under XFree86.
 
-%description -l pl
-Narzêdzie do konfiguracji kart graficznych firmy Matrox pod XFree86.
+%description -l pl.UTF-8
+NarzÄ™dzie do konfiguracji kart graficznych firmy Matrox pod XFree86.
 
 %prep
 %setup -q -n %{name}
