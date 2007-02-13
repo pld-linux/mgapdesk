@@ -1,6 +1,6 @@
 %define		beta	beta3
 Summary:	Configuration utility for Matrox Graphics adapters
-Summary(pl.UTF-8):   Narzędzie do konfiguracji kart graficznych firmy Matrox
+Summary(pl.UTF-8):	Narzędzie do konfiguracji kart graficznych firmy Matrox
 Name:		mgapdesk
 Version:	1.00
 Release:	0.%{beta}.1
